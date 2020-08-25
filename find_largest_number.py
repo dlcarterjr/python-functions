@@ -3,7 +3,7 @@ number_list = [10, 4, 35340, -3, 16, 75, 82, 0]
 
 
 def largest(list):  ## Define function that returns largest number.
-    large_number = -9999999999999999  ## Must set intial check number to lowest possible.
+    large_number = number_list[0]  ## Must set intial check number to first number in list.
 
 ## Loop interate trough the list.
     for number in number_list:  ## Check if current number is largeer than last large number (large_number).
